@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-plugin-safe-area",
+  "name": "@hamsterbase/capacitor-plugin-safe-area",
   "version": "4.0.0",
   "description": "a capacitor plugin to get SafeArea info on Android and IOS",
   "main": "dist/plugin.cjs.js",
