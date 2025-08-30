@@ -24,4 +24,8 @@ export class SafeAreaWeb extends WebPlugin implements SafeAreaPlugin {
   setImmersiveNavigationBar(): Promise<void> {
     throw this.unimplemented('Method not supported on Web.');
   }
+
+  startListeningForSafeAreaChanges(): Promise<void> {
+    throw this.unimplemented('Method not supported on Web.');
+  }
 }

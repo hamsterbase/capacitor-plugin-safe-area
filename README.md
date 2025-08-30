@@ -103,6 +103,7 @@ export default App;
 * [`getSafeAreaInsets()`](#getsafeareainsets)
 * [`getStatusBarHeight()`](#getstatusbarheight)
 * [`setImmersiveNavigationBar()`](#setimmersivenavigationbar)
+* [`startListeningForSafeAreaChanges()`](#startlisteningforsafeareachanges)
 * [`addListener('safeAreaChanged', ...)`](#addlistenersafeareachanged-)
 * [`removeAllListeners()`](#removealllisteners)
 * [Interfaces](#interfaces)
@@ -145,6 +146,18 @@ setImmersiveNavigationBar() => Promise<void>
 ```
 
 Set navigation bar immersive on Android , not implemented on IOS
+
+--------------------
+
+
+### startListeningForSafeAreaChanges()
+
+```typescript
+startListeningForSafeAreaChanges() => Promise<void>
+```
+
+Start listening for safe area changes
+not implemented on IOS
 
 --------------------
 
