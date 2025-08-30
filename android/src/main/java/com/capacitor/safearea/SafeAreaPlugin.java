@@ -33,7 +33,6 @@ public class SafeAreaPlugin extends Plugin {
     @Override
     public void load() {
         safeAreaInsets.setBridge(this.getBridge());
-        this.startListeningForSafeAreaChanges();
     }
 
     private void startListeningForSafeAreaChanges() {

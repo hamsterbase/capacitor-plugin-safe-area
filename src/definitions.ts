@@ -17,6 +17,12 @@ export interface SafeAreaPlugin {
   setImmersiveNavigationBar(): Promise<void>;
 
   /**
+   * Start listening for safe area changes
+   * not implemented on IOS
+   */
+  startListeningForSafeAreaChanges(): Promise<void>;
+
+  /**
    * Event listener when safe-area changed
    * @param event
    * @param listenerFunc
